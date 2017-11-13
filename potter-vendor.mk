@@ -938,6 +938,7 @@ PRODUCT_PACKAGES += \
     QPerformance \
     qti-vzw-ims-internal \
     rcsimssettings \
-    tcmclient
+    tcmclient \
+    HotwordEnrollmentOKGoogleWCD9340
 
 
