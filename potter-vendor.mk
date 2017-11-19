@@ -943,6 +943,8 @@ PRODUCT_PACKAGES += \
     qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient \
-    HotwordEnrollmentOKGoogleWCD9340
+    HotwordEnrollmentOKGoogleCS47L35 \
+    HotwordEnrollmentTGoogleCS47L35 \
+    HotwordEnrollmentXGoogleCS47L35
 
 

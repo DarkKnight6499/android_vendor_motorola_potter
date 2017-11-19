@@ -123,8 +123,30 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollmentOKGoogleWCD9340
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk
+LOCAL_MODULE := HotwordEnrollmentOKGoogleCS47L35
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentOKGoogleCS47L35/HotwordEnrollmentOKGoogleCS47L35.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := HotwordEnrollmentTGoogleCS47L35
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentTGoogleCS47L35/HotwordEnrollmentTGoogleCS47L35.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := HotwordEnrollmentXGoogleCS47L35
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentXGoogleCS47L35/HotwordEnrollmentXGoogleCS47L35.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
